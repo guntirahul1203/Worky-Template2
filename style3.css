@@ -1,0 +1,277 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    color: #a49a9a;
+    background-color: #fff;
+    line-height: 1.6; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 40px; 
+}
+
+
+.main-header {
+    background-color: rgba(102, 97, 97, 0.85); 
+    color: #fff;
+    padding: 20px 0;
+    position: centered; 
+    width: 100%;
+    z-index: 10; 
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffaa44; 
+}
+
+.navigation ul {
+    display: flex;
+    gap: 25px;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    background-color: #cbc1c1; 
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    
+    background-image: url('./HD-wallpaper-architecture-design-of-commercial-buildings-01.jpg'); 
+    
+    
+    background-color: rgba(218, 213, 68, 0.6); 
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    max-width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 300; 
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.btn-primary {
+    display: inline-block;
+    background-color: #ffaa44; 
+    color: #000;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #f79929;
+}
+
+
+.floating-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.icon-free, .icon-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+
+.icon-logo {
+    background-color: #ff0055;
+    font-size: 32px;
+}
+
+
+.about-section {
+    padding: 100px 0;
+}
+
+.about-text-column {
+    flex: 1;
+}
+
+.title-col {
+    max-width: 350px;
+}
+
+.section-subtitle {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.section-title {
+    font-size: 32px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.underline-accent {
+    width: 50px;
+    height: 4px;
+    background-color: #ffaa44;
+    margin-top: 15px;
+}
+
+.paragraph-col p {
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 15px;
+}
+
+
+.services-section {
+    padding-bottom: 50px;
+}
+
+.service-grid {
+    gap: 30px; 
+}
+
+.service-card {
+    flex: 1; /
+    position: relative;
+    background-color: #ffffff; 
+    color: #fff;
+}
+
+
+.image-placeholder {
+    width: 50%;
+    aspect-ratio: 16 / 9; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.image-placeholder::after {
+    content: "Image Placeholder";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #eadddd;
+    padding: 5px 10px;
+}
+
+.service-card h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+.bg-architecture {
+    background-color: #444; 
+}
+
+
+.bg-engineering {
+    background-color: #555; 
+}
+
+
+
+
+
+
+.main-footer {
+    background-color: #111;
+    color: #888;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 14px;
+}
